@@ -3412,7 +3412,6 @@ input, select, textarea {
 	object-position: center;
 	width: 100%;
 	height: 100%;
-	margin-top: -12px;
 }
 
 @media (min-width: 1152px) {
@@ -3424,9 +3423,10 @@ input, select, textarea {
 
 	.fullscreen-bg__video {
 		height: 100%;
+		margin-top: -12px;
 	}
 
-	.fullscreen-bg__video.small {
+	.fullscreen-bg__video .small {
 		display: none;
 	}
 }
@@ -3470,6 +3470,10 @@ input, select, textarea {
 
 	.first-text {
 		padding-top: 20px;
+	}
+
+	.fullscreen-bg__video .small img {
+		display: none !important;
 	}
 }
 
