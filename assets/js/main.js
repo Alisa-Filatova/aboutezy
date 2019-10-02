@@ -8,6 +8,7 @@
 
 	var	$window = $(window),
 		$body = $('body');
+	  $loader = $('.loader');
 
 	// Breakpoints.
 		breakpoints({
@@ -23,7 +24,7 @@
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
-				$body.removeClass('is-preload');
+				$loader.addClass('is-preload');
 			}, 100);
 		});
 
