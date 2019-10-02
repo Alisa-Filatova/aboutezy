@@ -22,9 +22,12 @@
 		});
 
 	// Play initial animations on page load.
+
+
 		$window.on('load', function() {
 			window.setTimeout(function() {
-				$loader.addClass('is-preload');
+				$loader.removeClass('is-preloaded');
+				$body.removeClass('is-preload');
 			}, 100);
 		});
 
