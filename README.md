@@ -1,4 +1,4 @@
-# ezy-town-landing
+# ezy-landing
 Landing page about ezy.com
 
 Ezy.com License NETLAB INTERNATIONAL S.C. LTD Cyprus, Krinon 16, Limassol, 3110 http://neotech.ee
